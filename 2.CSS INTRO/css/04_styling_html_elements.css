@@ -5,7 +5,14 @@
 
 body{
     background-color: azure;
+    background-image: url("../chocolate1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
+}
+main{
+    
 }
 
 span{
@@ -16,15 +23,18 @@ span{
     height: 50px;
 }
 div{
-    padding: 0;
+    padding: 0px 25px 0px 0px;
     margin: 15px;
-    background-color: darkgoldenrod;
-    /* width: 600px;
-    height: 100px; */
-    min-width: 150px;
+    background-color: aquamarine;
+    width: 50%;
+    height: 200px;
+    min-width: 700px;
+    border: 1px solid black;
+    /* min-width: 150px;
     min-height: 200px;
     max-width: 600px;
-    max-height: 200px;
+    max-height: 200px; */
+
 }
 article{
     padding: 0;
@@ -44,4 +54,8 @@ p{
 }
 img{
     float: left;
+    margin-right: 25px;
+    border-radius: 0px 0px 25px 0px;
+    height: 100%;
+    border-right: 1px solid black;
 }
