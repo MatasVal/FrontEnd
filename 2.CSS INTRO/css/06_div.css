@@ -1,0 +1,22 @@
+div{
+    height: 300px;
+    width: 800px;
+    color: rgb(102, 151, 250);
+    border: 1px groove black;
+    border-radius: 25px 25px 25px 25px;
+}
+div{
+    width: 400px;
+    height: 200px;
+    border: 10px dashed red;
+    margin: 20px auto;
+}
+div{
+    width: 400px;
+    height: 200px;
+    border: 10px dashed red;
+    margin: 20px auto;
+}
+img{
+    border-radius: 25px 0px 0px 0px;
+}
