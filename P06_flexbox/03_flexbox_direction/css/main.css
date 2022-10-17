@@ -1,0 +1,13 @@
+.container-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;;
+}
+.container-row div{
+    width: 175px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+    margin: 1em;
+}
