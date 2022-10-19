@@ -6,7 +6,7 @@
 body{
     color:#444;
     font-family: sans-serif;
-    border-top: 10px solid #1098ad;
+    border-top: 10px solid #1b5a1e;
     position: relative;
 }
 
@@ -41,16 +41,16 @@ header.post-header p {
 }
 aside{
     background-color: #f7f7f7;
-    border-top: 5px solid #1098ad;
-    border-bottom: 5px solid #1098ad;
+    border-top: 5px solid #1b5a1e;
+    border-bottom: 5px solid #1b5a1e;
     padding: 50px 0;
-    width: 500px;
+    width: 800px;
 }
 
 h1,
 h2,
 h3{
-    color: #1098ad;
+    color: #1b5a1e;
 }
 
 h1{
@@ -116,26 +116,15 @@ width: 100%;
 height: auto;
 }
 
-li:first-child{
-    font-weight: bold;
-}
-li:last-child{
-    font-style: italic;
-}
-
-li:nth-child(even){
-    color: darkslategrey;
-}
-
 article p:first-child{
     color: red;
 }
 
 a:visited{
-    color:#1098ad;
+    color:#1b5a1e;
 }
 a:link{
-    color: #1098ad;
+    color: #1b5a1e;
     text-decoration: none;
 }
 
@@ -155,7 +144,3 @@ nav a:link{
     margin-top: 20px;
 }
 
-h1::first-letter{
-    font-style: normal;
-    color: black;
-}
