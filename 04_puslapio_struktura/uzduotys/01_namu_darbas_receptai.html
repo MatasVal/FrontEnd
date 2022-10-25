@@ -14,8 +14,7 @@
                 border: 20px solid rgb(241, 239, 239);
                 background-color: white;
                 height: 600px;
-                width: 1000px;
-                
+                width: 1000px;                
             }
             .box1
             {
@@ -26,7 +25,6 @@
                 margin-top: 30px;
                 margin-left: 15px;
             }
-
             .box2
             {
                 display: inline-block;
@@ -39,11 +37,22 @@
             }
             .box1-instructions
             {
-                
+                height: 64%;
+                border: 1px solid black;
             }
             .box1-allergens
             {
-
+                height: 35%;
+                border: 1px solid black;                
+            }
+            .box1-allergens div
+            {
+                width: 30%;
+                height: 35%;
+                border: 1px solid red;
+                margin: 5px;                
+                text-align: center;                
+                display: inline-table;
             }
             
         </style>
@@ -53,8 +62,8 @@
 
             <div class="box1">
                 <div class="box1-instructions">
-                    <h1>Karsta kakava</h1>
-                    <h3>Recepto paruošimas</h3>
+                    <h2 style="margin-top: 5px; margin-left: 5px; margin-bottom: 10px; text-align: center;">Karsta kakava</h2>
+                    <h3 style="margin: 5px;">Recepto paruošimas</h3>
                     <ol>
                         <li>            
                             Pirmiausia moliniame puodelyje šaukštu gerai išmaišykite vieną valgomąjį šaukštą kakavos su vienuvalgomuoju šaukštu cukraus.
@@ -74,12 +83,18 @@
                     </ol>
                 </div>
                 <div class="box1-allergens">
-                    <h3>Alergenai</h3>
+                    <h3 style="margin-bottom: 5px; margin-left: 5px; margin-top: 5px;">Alergenai</h3>                    
+                    <div><img src="/P12_js_dom_element/Uzduotys/lactose.jpg" alt="laktoze"></div>
+                    <div><img  src="/P12_js_dom_element/Uzduotys/lactose.jpg" alt="laktoze"></div>
+                    <div><img  src="/P12_js_dom_element/Uzduotys/lactose.jpg" alt="laktoze"></div>
+                    <div><img  src="/P12_js_dom_element/Uzduotys/lactose.jpg" alt="laktoze"></div>
+                    <div><img  src="/P12_js_dom_element/Uzduotys/lactose.jpg" alt="laktoze"></div>
+                    <div><img  src="/P12_js_dom_element/Uzduotys/lactose.jpg" alt="laktoze"></div>
                 </div>
             </div>
 
             <div class="box2"><img src="kakava.jpg" alt="kakava" height="50%" width="100%">
-                <h3>Ingredientai</h3>
+                <h3 style="margin: 5px; margin-top: 10px">Ingredientai</h3>
                 <div>
                     <ul>
                     <li>            
@@ -93,8 +108,6 @@
                     </li>
                 </ul>
             </div>
-            
-
         </div>
     </body>
 </html>
