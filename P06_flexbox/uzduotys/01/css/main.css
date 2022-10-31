@@ -1,0 +1,53 @@
+.container-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.container-row div{
+    width: 50px;
+    height: 50px;    
+    background-color: rgb(231, 99, 99);
+    text-align: center;    
+    margin: 5px;
+    word-wrap: break-word;
+}
+.container-row-reverse{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.container-row-reverse div{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(237, 210, 76);
+    text-align: center;
+    margin: 5px;
+    word-wrap: break-word;
+}
+
+.container-column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container-column div{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(112, 112, 255);
+    text-align: center;
+    margin: 5px;
+    word-wrap: break-word;
+}
+.container-column-reverse{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+.container-column-reverse div{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(167, 247, 167);
+    text-align: center;
+    margin: 5px;
+    word-wrap: break-word;
+}
