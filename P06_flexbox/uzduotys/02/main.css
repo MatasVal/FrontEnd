@@ -1,0 +1,66 @@
+.container-nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    border: 1px solid black;    
+}
+.container-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+.container-wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+.container-nowrap div{
+    display: flex;
+    width: 100px;
+    height: 100px;    
+    background-color: rgb(231, 99, 99);          
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    flex-wrap: nowrap;
+    font-size: large;
+    font-weight: bold;
+    color: white;    
+}
+.container-wrap div{
+    display: flex;
+    width: 100px;
+    height: 100px;   
+    background-color: rgb(240, 221, 53);          
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+    font-size: large;
+    font-weight: bold;
+    color: white;    
+}
+.container-wrap-reverse div{
+    display: flex;
+    width: 100px;
+    height: 100px;   
+    background-color: rgb(107, 159, 250);          
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    flex-wrap: wrap-reverse;
+    font-size: large;
+    font-weight: bold;
+    color: white;    
+}
