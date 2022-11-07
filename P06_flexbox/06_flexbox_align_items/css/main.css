@@ -1,0 +1,16 @@
+.container-row-start{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 700px;
+    align-items: flex-start;
+    border: 5px solid tomato;
+    }
+.container-row-start div{
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid rgb(178, 245, 156);
+    background-color: darkgrey;
+    text-align: center;
+}

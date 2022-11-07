@@ -153,8 +153,7 @@ div.container-column-space-around{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
-    height: 500px;
-   
+    height: 500px;   
     border: 5px solid tomato;
     }
 div.container-column-space-around div{
