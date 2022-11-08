@@ -24,15 +24,42 @@ const loadDataSimple = () => {
 
 
 
+
+
 const loadDataAsync = async () => {
-    try {
+    try {        
         const response = await fetch(url);
         const data = await response.json();
-        console.log(data);
+        showData(data);
     } catch (error) {
         console.error(error);
     }
 }
 
+const loadMultiData = async() => {
+    const url1 = 'https://swapi.dev/api/species'
+    const url2 = 'https://swapi.dev/api/species'
+    const url3 = 'https://swapi.dev/api/species'
+
+    const responses = await Promise.all([
+        fetch(url1),
+        fetch(url2),
+        fetch(url3)
+        ]);
+
+    const multiPromises = responses.map( r => r.json());
+    const finalData = await Promise.all( multiPromises);
+    processData(finalData);
+}
+
+const processData = (arr) => {
+    //processing arr as data
+}
+
 loadDataAsync();
 console.log("Mes dabar esam cia");
+
+
+const showData = data => {
+console.log(data);
+}
