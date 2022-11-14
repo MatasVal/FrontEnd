@@ -12,7 +12,7 @@ function sendData() {
         obj[key] = value
     });
 
-    const url = 'https://testapi.io/api/partiz/resource/Animals/' + obj.id;
+    const url = 'https://testapi.io/api/lipfter/resource/Animals/' + obj.id;
 
     fetch(url, {
         method: 'put',

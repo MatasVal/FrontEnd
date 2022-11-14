@@ -5,10 +5,6 @@ function sendData() {
     let data = new FormData(animalForm);
     let obj = {};
 
-    obj['15612'] = 'timeValue';
-
-    console.log(data);
-
     // #1 iteracija -> obj {name: 'asd'}
     // #2 iteracija -> obj {type: 'asd'}
     data.forEach((value, key) => {
@@ -16,17 +12,23 @@ function sendData() {
         obj[key] = value
     });
 
-    fetch('https://testapi.io/api/lipfter/resource/Animals', {
-        method: 'post',
+    const urlFetchAnimal = 'https://testapi.io/api/lipfter/resource/Animals/' + obj.id;
+    const optionsFetchAnimal = {
+        method: 'get',
         headers: {
-            'Accept': 'application/json, text/plain, */*',
+            'Accept': 'application/json',
             'Content-Type': 'application/json'
-        },
-        // Naudojame JSON.stringify, nes objekte neturim .json() metodo
-        body: JSON.stringify(obj) 
+        }
+    }
+
+    fetch(urlFetchAnimal, optionsFetchAnimal)
+    .then((response) => console.log(response.json()))
+    .catch((error) => {
+        console.log(`Request failed with error: ${error}`);
     })
-    .then(obj => console.log(obj.json()))
-    .catch((klaida) => console.log(klaida));
+    
+    
+    
 }
 
 animalFormSbmBtn.addEventListener('click', (e) => {

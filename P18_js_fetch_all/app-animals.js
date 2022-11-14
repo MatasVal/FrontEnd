@@ -1,4 +1,4 @@
-const url = 'https://testapi.io/api/partiz/resource/Animals';
+const url = 'https://testapi.io/api/lipfter/resource/Animals';
 const options = {
     method: 'get',
     headers: {
