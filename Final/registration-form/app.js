@@ -31,13 +31,3 @@ registrationFormSbmBtn.addEventListener('click', (e) => {
         window.location.href = "../to-do-app/index.html";
     }, 2000); 
 })
-
-// function goToToDoApp(){
-//     window.location.href = "../to-do-app/index.html";
-// }
-
-// goToToDoApp();
-
-
-
-//PADARIAU TIMEOUT IR PANASU KAD NSEKMINGAI NUEINA I DUOMBAZE
