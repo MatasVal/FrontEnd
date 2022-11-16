@@ -1,0 +1,12 @@
+.user-interface {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+.upper-container{
+    margin: 5px;
+    padding: 5px;
+    height: 20px;
+    border: 1px solid green;
+}
